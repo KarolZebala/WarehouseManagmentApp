@@ -13,10 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{5845bf68-dc5c-423f-9cb0-d4402f52d804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{4901cc7f-a454-4b36-b924-e68d82553ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dtos">
+      <UniqueIdentifier>{268008f4-7036-421c-b340-9c0ac58f33cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{9b2d3f15-f713-4e98-b361-1f5f82b19f6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WarehouseManagmentApp.cpp">
+    <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WarehouseManagentApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseDbContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Warehouse.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseDocument.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageArea.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseLocation.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageCondition.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseDocumentReception.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WarehouseManagentApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseDbContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warehouse.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageCondition.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageArea.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseLocation.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseDocument.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseDocumentReception.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

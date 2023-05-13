@@ -127,7 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WarehouseManagmentApp.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="StorageArea.cpp" />
+    <ClCompile Include="StorageCondition.cpp" />
+    <ClCompile Include="Warehouse.cpp" />
+    <ClCompile Include="WarehouseDbContext.cpp" />
+    <ClCompile Include="WarehouseDocument.cpp" />
+    <ClCompile Include="WarehouseDocumentReception.cpp" />
+    <ClCompile Include="WarehouseLocation.cpp" />
+    <ClCompile Include="WarehouseManagentApp.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="WarehouseService.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="StorageArea.h" />
+    <ClInclude Include="StorageCondition.h" />
+    <ClInclude Include="Warehouse.h" />
+    <ClInclude Include="WarehouseDbContext.h" />
+    <ClInclude Include="WarehouseDocument.h" />
+    <ClInclude Include="WarehouseDocumentReception.h" />
+    <ClInclude Include="WarehouseLocation.h" />
+    <ClInclude Include="WarehouseManagentApp.h" />
+    <ClInclude Include="WarehouseService.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
